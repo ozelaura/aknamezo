@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aknamező</title>
+    <link rel="stylesheet" href="style.css">
+    <script def src="script.js"></script>
+</head>
+<body>
+
+    <label for="sor">Add meg a sorok számát:</label>
+    <input type="number" id="sor"><br>
+    <label for="oszlop">Add meg az oszlopok számát:</label>
+    <input type="number" id="oszlop">
+    <button id="general" onclick="TablaLetrehozas()">Táblázat generálása</button><br><hr>
+
+    <label for="">Aknák száma:</label>
+    <input type="number" id="aknak_szama">
+    <button onclick="FelteszAknak()">Aknák felhelyezése</button><hr>
+
+    <label for="">Bábúk száma:</label>
+    <input type="number" id="babuk_szama">
+    <button onclick="FelteszBabuk">Bábúk felhelyezése</button>
+
+    <div id="tabla"></div>
+</body>
+</html>

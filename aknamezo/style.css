@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(205, 187, 186);
+}
+
+
+input, button{
+    margin: 10px;
+}
+
+table{
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    min-height: 500px;
+    min-width: 500px;
+    background-color: rgb(241, 148, 148);
+
+}
+
+tr{
+    height: 50px;
+}
+
+td{
+    width: 50px;
+}
+
+tr, td{
+    border: 2px solid black;
+    
+}
+
+button{
+    background-color: rgb(241, 148, 148); 
+}
+
+input{
+
+    
+    width: 40px;
+    background-color: rgb(241, 148, 148);
+}
+
+#akna{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+}
